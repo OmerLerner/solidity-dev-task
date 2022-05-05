@@ -1,0 +1,554 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "assets",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        }
+      ],
+      "name": "claimRewards",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "assets",
+          "type": "address[]"
+        },
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        }
+      ],
+      "name": "getRewardsBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IAaveRewardController.sol",
+    "id": 18779,
+    "exportedSymbols": {
+      "IAaveRewardController": [
+        18765
+      ],
+      "IAaveRewardControllerV3": [
+        18778
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:999:88",
+    "nodes": [
+      {
+        "id": 18740,
+        "nodeType": "PragmaDirective",
+        "src": "40:23:88",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 18765,
+        "nodeType": "ContractDefinition",
+        "src": "67:769:88",
+        "nodes": [
+          {
+            "id": 18751,
+            "nodeType": "FunctionDefinition",
+            "src": "287:127:88",
+            "documentation": {
+              "id": 18741,
+              "nodeType": "StructuredDocumentation",
+              "src": "108:173:88",
+              "text": " @dev Returns the total of rewards of an user, already accrued + not yet accrued\n @param user The address of the user\n @return The rewards*"
+            },
+            "functionSelector": "8b599f26",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRewardsBalance",
+            "nameLocation": "296:17:88",
+            "parameters": {
+              "id": 18747,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18744,
+                  "mutability": "mutable",
+                  "name": "assets",
+                  "nameLocation": "333:6:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18751,
+                  "src": "314:25:88",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_calldata_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 18742,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "314:7:88",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 18743,
+                    "nodeType": "ArrayTypeName",
+                    "src": "314:9:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18746,
+                  "mutability": "mutable",
+                  "name": "user",
+                  "nameLocation": "349:4:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18751,
+                  "src": "341:12:88",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 18745,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "341:7:88",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "313:41:88"
+            },
+            "returnParameters": {
+              "id": 18750,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18749,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18751,
+                  "src": "405:7:88",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 18748,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "405:7:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "404:9:88"
+            },
+            "scope": 18765,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 18764,
+            "nodeType": "FunctionDefinition",
+            "src": "695:138:88",
+            "documentation": {
+              "id": 18752,
+              "nodeType": "StructuredDocumentation",
+              "src": "422:267:88",
+              "text": " @dev Claims reward for an user, on all the assets of the lending pool, accumulating the pending rewards\n @param amount Amount of rewards to claim\n @param to Address that will be receiving the rewards\n @return Rewards claimed*"
+            },
+            "functionSelector": "3111e7b3",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claimRewards",
+            "nameLocation": "704:12:88",
+            "parameters": {
+              "id": 18760,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18755,
+                  "mutability": "mutable",
+                  "name": "assets",
+                  "nameLocation": "746:6:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18764,
+                  "src": "727:25:88",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_calldata_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 18753,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "727:7:88",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 18754,
+                    "nodeType": "ArrayTypeName",
+                    "src": "727:9:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18757,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "771:6:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18764,
+                  "src": "763:14:88",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 18756,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "763:7:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18759,
+                  "mutability": "mutable",
+                  "name": "to",
+                  "nameLocation": "796:2:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18764,
+                  "src": "788:10:88",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 18758,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "788:7:88",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "716:89:88"
+            },
+            "returnParameters": {
+              "id": 18763,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18762,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18764,
+                  "src": "824:7:88",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 18761,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "824:7:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "823:9:88"
+            },
+            "scope": 18765,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAaveRewardController",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          18765
+        ],
+        "name": "IAaveRewardController",
+        "nameLocation": "77:21:88",
+        "scope": 18779,
+        "usedErrors": []
+      },
+      {
+        "id": 18778,
+        "nodeType": "ContractDefinition",
+        "src": "840:197:88",
+        "nodes": [
+          {
+            "id": 18777,
+            "nodeType": "FunctionDefinition",
+            "src": "883:149:88",
+            "functionSelector": "bf90f63a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claimAllRewardsToSelf",
+            "nameLocation": "892:21:88",
+            "parameters": {
+              "id": 18769,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18768,
+                  "mutability": "mutable",
+                  "name": "assets",
+                  "nameLocation": "933:6:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18777,
+                  "src": "914:25:88",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_calldata_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 18766,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "914:7:88",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 18767,
+                    "nodeType": "ArrayTypeName",
+                    "src": "914:9:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "913:27:88"
+            },
+            "returnParameters": {
+              "id": 18776,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18772,
+                  "mutability": "mutable",
+                  "name": "rewardsList",
+                  "nameLocation": "986:11:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18777,
+                  "src": "969:28:88",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 18770,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "969:7:88",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 18771,
+                    "nodeType": "ArrayTypeName",
+                    "src": "969:9:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18775,
+                  "mutability": "mutable",
+                  "name": "claimedAmounts",
+                  "nameLocation": "1016:14:88",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18777,
+                  "src": "999:31:88",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 18773,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "999:7:88",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 18774,
+                    "nodeType": "ArrayTypeName",
+                    "src": "999:9:88",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "968:63:88"
+            },
+            "scope": 18778,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAaveRewardControllerV3",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          18778
+        ],
+        "name": "IAaveRewardControllerV3",
+        "nameLocation": "850:23:88",
+        "scope": 18779,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  }
+}

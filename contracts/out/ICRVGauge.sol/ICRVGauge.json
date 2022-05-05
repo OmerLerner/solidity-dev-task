@@ -1,0 +1,325 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "claim_rewards",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_addr",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "_claim_rewards",
+          "type": "bool"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "_claim_rewards",
+          "type": "bool"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICRVGauge.sol",
+    "id": 18872,
+    "exportedSymbols": {
+      "ICRVGauge": [
+        18871
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:245:91",
+    "nodes": [
+      {
+        "id": 18851,
+        "nodeType": "PragmaDirective",
+        "src": "40:23:91",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 18871,
+        "nodeType": "ContractDefinition",
+        "src": "67:218:91",
+        "nodes": [
+          {
+            "id": 18860,
+            "nodeType": "FunctionDefinition",
+            "src": "94:78:91",
+            "functionSelector": "83df6747",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deposit",
+            "nameLocation": "103:7:91",
+            "parameters": {
+              "id": 18858,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18853,
+                  "mutability": "mutable",
+                  "name": "_value",
+                  "nameLocation": "119:6:91",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18860,
+                  "src": "111:14:91",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 18852,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "111:7:91",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18855,
+                  "mutability": "mutable",
+                  "name": "_addr",
+                  "nameLocation": "135:5:91",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18860,
+                  "src": "127:13:91",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 18854,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "127:7:91",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18857,
+                  "mutability": "mutable",
+                  "name": "_claim_rewards",
+                  "nameLocation": "147:14:91",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18860,
+                  "src": "142:19:91",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 18856,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "142:4:91",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "110:52:91"
+            },
+            "returnParameters": {
+              "id": 18859,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "171:0:91"
+            },
+            "scope": 18871,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 18867,
+            "nodeType": "FunctionDefinition",
+            "src": "178:64:91",
+            "functionSelector": "38d07436",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "withdraw",
+            "nameLocation": "187:8:91",
+            "parameters": {
+              "id": 18865,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18862,
+                  "mutability": "mutable",
+                  "name": "_value",
+                  "nameLocation": "204:6:91",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18867,
+                  "src": "196:14:91",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 18861,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "196:7:91",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18864,
+                  "mutability": "mutable",
+                  "name": "_claim_rewards",
+                  "nameLocation": "217:14:91",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18867,
+                  "src": "212:19:91",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 18863,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "212:4:91",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "195:37:91"
+            },
+            "returnParameters": {
+              "id": 18866,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "241:0:91"
+            },
+            "scope": 18871,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 18870,
+            "nodeType": "FunctionDefinition",
+            "src": "248:34:91",
+            "functionSelector": "e6f1daf2",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claim_rewards",
+            "nameLocation": "257:13:91",
+            "parameters": {
+              "id": 18868,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "270:2:91"
+            },
+            "returnParameters": {
+              "id": 18869,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "281:0:91"
+            },
+            "scope": 18871,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICRVGauge",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          18871
+        ],
+        "name": "ICRVGauge",
+        "nameLocation": "77:9:91",
+        "scope": 18872,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  }
+}

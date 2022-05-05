@@ -1,0 +1,570 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amt",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "receiptTokens",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_borrower",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amt",
+          "type": "uint256"
+        }
+      ],
+      "name": "depositFor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "receiptTokens",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amt",
+          "type": "uint256"
+        }
+      ],
+      "name": "redeem",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "underlyingTokens",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "redeemFor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "underlyingTokens",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IYetiVaultToken.sol",
+    "id": 20342,
+    "exportedSymbols": {
+      "IYetiVaultToken": [
+        20341
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:589:103",
+    "nodes": [
+      {
+        "id": 20305,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:103",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 20341,
+        "nodeType": "ContractDefinition",
+        "src": "154:433:103",
+        "nodes": [
+          {
+            "id": 20313,
+            "nodeType": "FunctionDefinition",
+            "src": "187:72:103",
+            "functionSelector": "b6b55f25",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deposit",
+            "nameLocation": "196:7:103",
+            "parameters": {
+              "id": 20309,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20308,
+                  "mutability": "mutable",
+                  "name": "_amt",
+                  "nameLocation": "212:4:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20313,
+                  "src": "204:12:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20307,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "204:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "203:14:103"
+            },
+            "returnParameters": {
+              "id": 20312,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20311,
+                  "mutability": "mutable",
+                  "name": "receiptTokens",
+                  "nameLocation": "244:13:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20313,
+                  "src": "236:21:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20310,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "236:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "235:23:103"
+            },
+            "scope": 20341,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 20322,
+            "nodeType": "FunctionDefinition",
+            "src": "265:94:103",
+            "functionSelector": "2f4f21e2",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "depositFor",
+            "nameLocation": "274:10:103",
+            "parameters": {
+              "id": 20318,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20315,
+                  "mutability": "mutable",
+                  "name": "_borrower",
+                  "nameLocation": "293:9:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20322,
+                  "src": "285:17:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 20314,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "285:7:103",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 20317,
+                  "mutability": "mutable",
+                  "name": "_amt",
+                  "nameLocation": "312:4:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20322,
+                  "src": "304:12:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20316,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "304:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "284:33:103"
+            },
+            "returnParameters": {
+              "id": 20321,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20320,
+                  "mutability": "mutable",
+                  "name": "receiptTokens",
+                  "nameLocation": "344:13:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20322,
+                  "src": "336:21:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20319,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "336:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "335:23:103"
+            },
+            "scope": 20341,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 20329,
+            "nodeType": "FunctionDefinition",
+            "src": "365:74:103",
+            "functionSelector": "db006a75",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "redeem",
+            "nameLocation": "374:6:103",
+            "parameters": {
+              "id": 20325,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20324,
+                  "mutability": "mutable",
+                  "name": "_amt",
+                  "nameLocation": "389:4:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20329,
+                  "src": "381:12:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20323,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "381:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "380:14:103"
+            },
+            "returnParameters": {
+              "id": 20328,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20327,
+                  "mutability": "mutable",
+                  "name": "underlyingTokens",
+                  "nameLocation": "421:16:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20329,
+                  "src": "413:24:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20326,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "413:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "412:26:103"
+            },
+            "scope": 20341,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 20340,
+            "nodeType": "FunctionDefinition",
+            "src": "445:139:103",
+            "functionSelector": "5c0bfa88",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "redeemFor",
+            "nameLocation": "454:9:103",
+            "parameters": {
+              "id": 20336,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20331,
+                  "mutability": "mutable",
+                  "name": "_amt",
+                  "nameLocation": "482:4:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20340,
+                  "src": "474:12:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20330,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "474:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 20333,
+                  "mutability": "mutable",
+                  "name": "_from",
+                  "nameLocation": "505:5:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20340,
+                  "src": "497:13:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 20332,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "497:7:103",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 20335,
+                  "mutability": "mutable",
+                  "name": "_to",
+                  "nameLocation": "529:3:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20340,
+                  "src": "521:11:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 20334,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "521:7:103",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "463:76:103"
+            },
+            "returnParameters": {
+              "id": 20339,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20338,
+                  "mutability": "mutable",
+                  "name": "underlyingTokens",
+                  "nameLocation": "566:16:103",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 20340,
+                  "src": "558:24:103",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 20337,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "558:7:103",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "557:26:103"
+            },
+            "scope": 20341,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IYetiVaultToken",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 20306,
+          "nodeType": "StructuredDocumentation",
+          "src": "27:125:103",
+          "text": " @notice Interface for use of wrapping and unwrapping vault tokens in the Yeti Finance borrowing \n protocol. "
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          20341
+        ],
+        "name": "IYetiVaultToken",
+        "nameLocation": "164:15:103",
+        "scope": 20342,
+        "usedErrors": []
+      }
+    ]
+  }
+}

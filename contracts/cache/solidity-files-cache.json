@@ -1,0 +1,2874 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1651507165932,
+      "contentHash": "8b777625543328d47b9f5e528a8c86fd",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.10+commit.fc410830.Windows.msvc": "test.sol\\DSTest.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\forge-std\\src/Vm.sol": {
+      "lastModificationDate": 1651507165941,
+      "contentHash": "008fd42f1f4786e8bc687e488cffe92f",
+      "sourceName": "lib\\forge-std\\src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Vm.sol\\Vm.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\forge-std\\src/console.sol": {
+      "lastModificationDate": 1651507165942,
+      "contentHash": "d260393281467f65b76bdaffcad2be22",
+      "sourceName": "lib\\forge-std\\src/console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.22, <0.9.0",
+      "artifacts": {
+        "console": {
+          "0.8.10+commit.fc410830.Windows.msvc": "console.sol\\console.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\forge-std\\src/stdlib.sol": {
+      "lastModificationDate": 1651507165942,
+      "contentHash": "92ecedc5bb1447f8d289ee96ed8e913e",
+      "sourceName": "lib\\forge-std\\src/stdlib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\forge-std\\src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "stdCheats": {
+          "0.8.10+commit.fc410830.Windows.msvc": "stdlib.sol\\stdCheats.json"
+        },
+        "stdError": {
+          "0.8.10+commit.fc410830.Windows.msvc": "stdlib.sol\\stdError.json"
+        },
+        "stdStorage": {
+          "0.8.10+commit.fc410830.Windows.msvc": "stdlib.sol\\stdStorage.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol": {
+      "lastModificationDate": 1651507166576,
+      "contentHash": "30a09f45daf8d63c075489a48cea7a4a",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC1822Proxiable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "draft-IERC1822.sol\\IERC1822Proxiable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol": {
+      "lastModificationDate": 1651507166628,
+      "contentHash": "9a4f945f81415762711071c4448dc9cf",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\Proxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC1967Proxy": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ERC1967Proxy.sol\\ERC1967Proxy.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol": {
+      "lastModificationDate": 1651507166628,
+      "contentHash": "b960b0d96c52863a22be11e893df2d56",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol"
+      ],
+      "versionRequirement": "^0.8.2",
+      "artifacts": {
+        "ERC1967Upgrade": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ERC1967Upgrade.sol\\ERC1967Upgrade.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\proxy\\Proxy.sol": {
+      "lastModificationDate": 1651507166628,
+      "contentHash": "ebad2b653dfeaa094e71714584f15a56",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\proxy\\Proxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Proxy": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Proxy.sol\\Proxy.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol": {
+      "lastModificationDate": 1651507166630,
+      "contentHash": "d81bfe8c27728c6ae880fac6c1fe56a2",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IBeacon": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IBeacon.sol\\IBeacon.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/openzeppelin-contracts/contracts/proxy/transparent/TransparentUpgradeableProxy.sol": {
+      "lastModificationDate": 1651507166633,
+      "contentHash": "083bd6d25c0cedc404f6c9b5894ec0d3",
+      "sourceName": "lib/openzeppelin-contracts/contracts/proxy/transparent/TransparentUpgradeableProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\Proxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "TransparentUpgradeableProxy": {
+          "0.8.10+commit.fc410830.Windows.msvc": "TransparentUpgradeableProxy.sol\\TransparentUpgradeableProxy.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1651507166667,
+      "contentHash": "a0b498f62e652a7bc3cd0dd93e2f7254",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.1",
+      "artifacts": {
+        "Address": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Address.sol\\Address.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1651507166671,
+      "contentHash": "d8af1860b42c96d26f7d216cec488e72",
+      "sourceName": "lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "StorageSlot": {
+          "0.8.10+commit.fc410830.Windows.msvc": "StorageSlot.sol\\StorageSlot.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1651507166269,
+      "contentHash": "3c609da9d86e00c9919c60665a5cf008",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "OwnableUpgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "OwnableUpgradeable.sol\\OwnableUpgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1651507166353,
+      "contentHash": "ee6edfeba01426c059ff5caa4192d64b",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Initializable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Initializable.sol\\Initializable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol": {
+      "lastModificationDate": 1651507166356,
+      "contentHash": "e8270041972a080af45c472d17564f80",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ReentrancyGuardUpgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ReentrancyGuardUpgradeable.sol\\ReentrancyGuardUpgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol": {
+      "lastModificationDate": 1651507166387,
+      "contentHash": "1aedad24700cb7aa3a505e55c2368050",
+      "sourceName": "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.1",
+      "artifacts": {
+        "AddressUpgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "AddressUpgradeable.sol\\AddressUpgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol": {
+      "lastModificationDate": 1651507166389,
+      "contentHash": "33ef277511626ddb506fcfeee5c90c85",
+      "sourceName": "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ContextUpgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ContextUpgradeable.sol\\ContextUpgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol": {
+      "lastModificationDate": 1651507166392,
+      "contentHash": "093e8d09b16af6a5366ed5f3c9c0d30d",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "StringsUpgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "StringsUpgradeable.sol\\StringsUpgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1651507166826,
+      "contentHash": "13dc236e1d10aed8567787e77f03f8b5",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ERC20.sol\\ERC20.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/solmate/src/tokens/ERC20Upgradeable.sol": {
+      "lastModificationDate": 1651507166827,
+      "contentHash": "ca6f312fef371503f183a17739929be2",
+      "sourceName": "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20Upgradeable": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ERC20Upgradeable.sol\\ERC20Upgradeable.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/solmate/src/utils/FixedPointMathLib.sol": {
+      "lastModificationDate": 1651507166829,
+      "contentHash": "4206734bae65d127bf3bd19a12cde698",
+      "sourceName": "lib/solmate/src/utils/FixedPointMathLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "FixedPointMathLib": {
+          "0.8.10+commit.fc410830.Windows.msvc": "FixedPointMathLib.sol\\FixedPointMathLib.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/solmate/src/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1651507166830,
+      "contentHash": "c26f0928258a572fc6289e5c7cc38e66",
+      "sourceName": "lib/solmate/src/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ReentrancyGuard": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ReentrancyGuard.sol\\ReentrancyGuard.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\lib/solmate/src/utils/SafeTransferLib.sol": {
+      "lastModificationDate": 1651507166831,
+      "contentHash": "d27c3a506c935cf0337a4d03a7cba807",
+      "sourceName": "lib/solmate/src/utils/SafeTransferLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "SafeTransferLib": {
+          "0.8.10+commit.fc410830.Windows.msvc": "SafeTransferLib.sol\\SafeTransferLib.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\Lever.sol": {
+      "lastModificationDate": 1651507166832,
+      "contentHash": "25528a9e4af75543cbc686795b9a0265",
+      "sourceName": "src\\Lever.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/ReentrancyGuard.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Lever": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Lever.sol\\Lever.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\Router.sol": {
+      "lastModificationDate": 1651507166833,
+      "contentHash": "398c6ad773baa592eb3236c7318546cb",
+      "sourceName": "src\\Router.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Router": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Router.sol\\Router.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\Vault.sol": {
+      "lastModificationDate": 1651507166833,
+      "contentHash": "b91e1aedee2f6e72afff82bfe05bd44a",
+      "sourceName": "src\\Vault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Vault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Vault.sol\\Vault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\VaultProxy.sol": {
+      "lastModificationDate": 1651507166834,
+      "contentHash": "fdbcd3cb585edf2b950f05410b80711c",
+      "sourceName": "src\\VaultProxy.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib\\openzeppelin-contracts\\contracts\\interfaces\\draft-IERC1822.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\Proxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\proxy\\beacon\\IBeacon.sol",
+        "lib/openzeppelin-contracts/contracts/proxy/transparent/TransparentUpgradeableProxy.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\Address.sol",
+        "lib\\openzeppelin-contracts\\contracts\\utils\\StorageSlot.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "VaultProxy": {
+          "0.8.10+commit.fc410830.Windows.msvc": "VaultProxy.sol\\VaultProxy.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\CRVVault.sol": {
+      "lastModificationDate": 1651507166834,
+      "contentHash": "0413edf1300f600eae528cfb2da985e9",
+      "sourceName": "src\\integrations\\CRVVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICRVGauge.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "CRVVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "CRVVault.sol\\CRVVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\JLPVault.sol": {
+      "lastModificationDate": 1651507166835,
+      "contentHash": "65a69c72587be5fd8296c9f159b1bd91",
+      "sourceName": "src\\integrations\\JLPVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMasterChef.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "JLPVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "JLPVault.sol\\JLPVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\aUSTVault.sol": {
+      "lastModificationDate": 1651662723193,
+      "contentHash": "4de5e77af093ba839a5772cc6d79008d",
+      "sourceName": "src\\integrations\\aUSTVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\IAggregatorV3Interface.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IWormholeAnchor.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "aUSTVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "aUSTVault.sol\\aUSTVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\aaveV3Vault.sol": {
+      "lastModificationDate": 1651507166836,
+      "contentHash": "236bfa4c8327a50f944f5d32d3a25219",
+      "sourceName": "src\\integrations\\aaveV3Vault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\IAaveRewardController.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "aaveVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "aaveV3Vault.sol\\aaveVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\aaveVault.sol": {
+      "lastModificationDate": 1651507166836,
+      "contentHash": "5aef7f41af395e1254c21d32721fd3ce",
+      "sourceName": "src\\integrations\\aaveVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\IAaveRewardController.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "aaveVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "aaveVault.sol\\aaveVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\compVault.sol": {
+      "lastModificationDate": 1651507166837,
+      "contentHash": "f9f27e52fe63636c3486c8185c635318",
+      "sourceName": "src\\integrations\\compVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICompRewardController.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "src\\interfaces\\cToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "compVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "compVault.sol\\compVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\sJOEVault.sol": {
+      "lastModificationDate": 1651507166837,
+      "contentHash": "2103540b47bc38e9b3c98d31e3b08224",
+      "sourceName": "src\\integrations\\sJOEVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IStableJoeStaking.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "sJOEVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "sJOEVault.sol\\sJOEVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\integrations\\savaxVault.sol": {
+      "lastModificationDate": 1651507166837,
+      "contentHash": "d8df03d12db5539fcd55487ceb3e2a1c",
+      "sourceName": "src\\integrations\\savaxVault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "src\\interfaces\\sAVAX.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "savaxVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "savaxVault.sol\\savaxVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IAAVE.sol": {
+      "lastModificationDate": 1651507166838,
+      "contentHash": "565611c4f8597a05f7eb32f9a6390925",
+      "sourceName": "src\\interfaces\\IAAVE.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IAAVE": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IAAVE.sol\\IAAVE.json"
+        },
+        "IAAVEV3": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IAAVE.sol\\IAAVEV3.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IAaveRewardController.sol": {
+      "lastModificationDate": 1651507166838,
+      "contentHash": "981834d2621d5af0d082462c2e288b71",
+      "sourceName": "src\\interfaces\\IAaveRewardController.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "IAaveRewardController": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IAaveRewardController.sol\\IAaveRewardController.json"
+        },
+        "IAaveRewardControllerV3": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IAaveRewardController.sol\\IAaveRewardControllerV3.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IAggregatorV3Interface.sol": {
+      "lastModificationDate": 1651662081876,
+      "contentHash": "fcda3ff0e1bb776a8dbe175885c9dd35",
+      "sourceName": "src\\interfaces\\IAggregatorV3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "AggregatorV3Interface": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IAggregatorV3Interface.sol\\AggregatorV3Interface.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICOMP.sol": {
+      "lastModificationDate": 1651507166839,
+      "contentHash": "69e87c8685e33c82fa7624ff052608cf",
+      "sourceName": "src\\interfaces\\ICOMP.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ICOMP": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICOMP.sol\\ICOMP.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICRVGauge.sol": {
+      "lastModificationDate": 1651507166839,
+      "contentHash": "9138bd2b32cbeba67ece39e016e9773f",
+      "sourceName": "src\\interfaces\\ICRVGauge.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ICRVGauge": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICRVGauge.sol\\ICRVGauge.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICompRewardController.sol": {
+      "lastModificationDate": 1651507166840,
+      "contentHash": "6b54930c98120b92c34aab6fe30c574e",
+      "sourceName": "src\\interfaces\\ICompRewardController.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ICompRewardController": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICompRewardController.sol\\ICompRewardController.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICurvePool.sol": {
+      "lastModificationDate": 1651507166840,
+      "contentHash": "c41496d163bc44fd791aef9c7723752c",
+      "sourceName": "src\\interfaces\\ICurvePool.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ILendingPool": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICurvePool.sol\\ILendingPool.json"
+        },
+        "IMetaPool": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICurvePool.sol\\IMetaPool.json"
+        },
+        "IPlainPool": {
+          "0.8.10+commit.fc410830.Windows.msvc": "ICurvePool.sol\\IPlainPool.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1651507166841,
+      "contentHash": "0318e9a2387b682179c3b80689e2c7d1",
+      "sourceName": "src\\interfaces\\IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IERC20.sol\\IERC20.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IERC2612.sol": {
+      "lastModificationDate": 1651507166841,
+      "contentHash": "0bfa5b38813875e392be4067590bc2e2",
+      "sourceName": "src\\interfaces\\IERC2612.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "IERC2612": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IERC2612.sol\\IERC2612.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IJoePair.sol": {
+      "lastModificationDate": 1651507166841,
+      "contentHash": "5d4f842cc2d7a85577491bf8914791e1",
+      "sourceName": "src\\interfaces\\IJoePair.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IJoePair": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IJoePair.sol\\IJoePair.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IJoeRouter.sol": {
+      "lastModificationDate": 1651507166842,
+      "contentHash": "5a98b45245bd6271427c473f2056343a",
+      "sourceName": "src\\interfaces\\IJoeRouter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IJoeRouter": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IJoeRouter.sol\\IJoeRouter.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IMasterChef.sol": {
+      "lastModificationDate": 1651507166842,
+      "contentHash": "99658cfe23d5c58afc42657e689c98fe",
+      "sourceName": "src\\interfaces\\IMasterChef.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "src\\interfaces\\IERC20.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "IMasterChef": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IMasterChef.sol\\IMasterChef.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IMeta.sol": {
+      "lastModificationDate": 1651507166843,
+      "contentHash": "3c6e2a4f9a7c9201fb8be77c3f2d7189",
+      "sourceName": "src\\interfaces\\IMeta.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IMeta": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IMeta.sol\\IMeta.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IStableJoeStaking.sol": {
+      "lastModificationDate": 1651507166843,
+      "contentHash": "b947e340a10a0d7d845add9429fafc2d",
+      "sourceName": "src\\interfaces\\IStableJoeStaking.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "IStableJoeStaking": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IStableJoeStaking.sol\\IStableJoeStaking.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IWAVAX.sol": {
+      "lastModificationDate": 1651507166844,
+      "contentHash": "4149b63b52ce8ce779d12093a0fa2b12",
+      "sourceName": "src\\interfaces\\IWAVAX.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">0.8.0",
+      "artifacts": {
+        "IWAVAX": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IWAVAX.sol\\IWAVAX.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IWormholeAnchor.sol": {
+      "lastModificationDate": 1651662729619,
+      "contentHash": "70bdb200a4244da314e471e7ae14c3b7",
+      "sourceName": "src\\interfaces\\IWormholeAnchor.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "WormholeBridgeAnchor": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IWormholeAnchor.sol\\WormholeBridgeAnchor.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\IYetiVaultToken.sol": {
+      "lastModificationDate": 1651507166844,
+      "contentHash": "9ab425a629d63c53ff2f49dc33385f95",
+      "sourceName": "src\\interfaces\\IYetiVaultToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "IYetiVaultToken": {
+          "0.8.10+commit.fc410830.Windows.msvc": "IYetiVaultToken.sol\\IYetiVaultToken.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\cToken.sol": {
+      "lastModificationDate": 1651507166845,
+      "contentHash": "2d75156f92fe1a73325cacb1d83ed46e",
+      "sourceName": "src\\interfaces\\cToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "IcToken": {
+          "0.8.10+commit.fc410830.Windows.msvc": "cToken.sol\\IcToken.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\sAVAX.sol": {
+      "lastModificationDate": 1651507166845,
+      "contentHash": "6c73706daedfe0479bb7dde5f36031d1",
+      "sourceName": "src\\interfaces\\sAVAX.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "sAVAX": {
+          "0.8.10+commit.fc410830.Windows.msvc": "sAVAX.sol\\sAVAX.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\CRVVault.t.sol": {
+      "lastModificationDate": 1651507166846,
+      "contentHash": "e1ed472fbc74731634f5cdc131c9a7f5",
+      "sourceName": "test\\CRVVault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\integrations\\CRVVault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICRVGauge.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestsCRVVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "CRVVault.t.sol\\TestsCRVVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\JLPVault.t.sol": {
+      "lastModificationDate": 1651507166846,
+      "contentHash": "0774fdb1a91f9fb7edaae391e254b377",
+      "sourceName": "test\\JLPVault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\integrations\\JLPVault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMasterChef.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestJLPVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "JLPVault.t.sol\\TestJLPVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\Lever.t.sol": {
+      "lastModificationDate": 1651507166847,
+      "contentHash": "e2ac9824de270d0b4cd0894a9f5f3f09",
+      "sourceName": "test\\Lever.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/ReentrancyGuard.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Lever.sol",
+        "src\\Router.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestLever": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Lever.t.sol\\TestLever.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\TestERC20.sol": {
+      "lastModificationDate": 1651507166847,
+      "contentHash": "18392c26ff5d86cacb9ed5b152300872",
+      "sourceName": "test\\TestERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestERC20": {
+          "0.8.10+commit.fc410830.Windows.msvc": "TestERC20.sol\\TestERC20.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\Utils.sol": {
+      "lastModificationDate": 1651507166848,
+      "contentHash": "b436b930ec90b94998491ce6ce154d19",
+      "sourceName": "test\\Utils.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Utils": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Utils.sol\\Utils.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\Vault.t.sol": {
+      "lastModificationDate": 1651507166848,
+      "contentHash": "4af7218eb2d63c209a92cc7c82fa8528",
+      "sourceName": "test\\Vault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestBasicVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "Vault.t.sol\\TestBasicVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\aaveVault.t.sol": {
+      "lastModificationDate": 1651507166848,
+      "contentHash": "58338d092e3b204e236eb6aa6fb1cb23",
+      "sourceName": "test\\aaveVault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\integrations\\aaveVault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\IAaveRewardController.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestaaveVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "aaveVault.t.sol\\TestaaveVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\compVault.t.sol": {
+      "lastModificationDate": 1651507166849,
+      "contentHash": "75834e98b2195f759ebf2c6b28b73bcb",
+      "sourceName": "test\\compVault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\integrations\\compVault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICompRewardController.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "src\\interfaces\\cToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestcompVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "compVault.t.sol\\TestcompVault.json"
+        }
+      }
+    },
+    "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\test\\sJOEVault.t.sol": {
+      "lastModificationDate": 1651507166849,
+      "contentHash": "8937cc086690b87263680788c6cb2dd9",
+      "sourceName": "test\\sJOEVault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 4000
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib\\forge-std\\src/Vm.sol",
+        "lib\\forge-std\\src/console.sol",
+        "lib\\forge-std\\src/stdlib.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/security/ReentrancyGuardUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\AddressUpgradeable.sol",
+        "lib\\openzeppelin-contracts-upgradeable\\contracts\\utils\\ContextUpgradeable.sol",
+        "lib/openzeppelin-contracts-upgradeable/contracts/utils/StringsUpgradeable.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/tokens/ERC20Upgradeable.sol",
+        "lib/solmate/src/utils/FixedPointMathLib.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src\\Router.sol",
+        "src\\Vault.sol",
+        "src\\integrations\\sJOEVault.sol",
+        "src\\interfaces\\IAAVE.sol",
+        "src\\interfaces\\ICOMP.sol",
+        "src\\interfaces\\ICurvePool.sol",
+        "src\\interfaces\\IERC20.sol",
+        "src\\interfaces\\IERC2612.sol",
+        "src\\interfaces\\IJoePair.sol",
+        "src\\interfaces\\IJoeRouter.sol",
+        "src\\interfaces\\IMeta.sol",
+        "src\\interfaces\\IStableJoeStaking.sol",
+        "src\\interfaces\\IWAVAX.sol",
+        "src\\interfaces\\IYetiVaultToken.sol",
+        "test\\TestERC20.sol",
+        "test\\Utils.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "TestsJOEVault": {
+          "0.8.10+commit.fc410830.Windows.msvc": "sJOEVault.t.sol\\TestsJOEVault.json"
+        }
+      }
+    }
+  }
+}

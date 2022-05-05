@@ -1,0 +1,159 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "rewardType",
+          "type": "uint8"
+        },
+        {
+          "internalType": "address payable",
+          "name": "holder",
+          "type": "address"
+        }
+      ],
+      "name": "claimReward",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "C:\\Users\\Omer Lerner\\Projects\\YetiFinance\\solidity-dev-task\\contracts\\src\\interfaces\\ICompRewardController.sol",
+    "id": 18882,
+    "exportedSymbols": {
+      "ICompRewardController": [
+        18881
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:145:92",
+    "nodes": [
+      {
+        "id": 18873,
+        "nodeType": "PragmaDirective",
+        "src": "40:23:92",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 18881,
+        "nodeType": "ContractDefinition",
+        "src": "67:114:92",
+        "nodes": [
+          {
+            "id": 18880,
+            "nodeType": "FunctionDefinition",
+            "src": "106:72:92",
+            "functionSelector": "0952c563",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "claimReward",
+            "nameLocation": "115:11:92",
+            "parameters": {
+              "id": 18878,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 18875,
+                  "mutability": "mutable",
+                  "name": "rewardType",
+                  "nameLocation": "133:10:92",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18880,
+                  "src": "127:16:92",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 18874,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "127:5:92",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18877,
+                  "mutability": "mutable",
+                  "name": "holder",
+                  "nameLocation": "161:6:92",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 18880,
+                  "src": "145:22:92",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address_payable",
+                    "typeString": "address payable"
+                  },
+                  "typeName": {
+                    "id": 18876,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:15:92",
+                    "stateMutability": "payable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "126:42:92"
+            },
+            "returnParameters": {
+              "id": 18879,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "177:0:92"
+            },
+            "scope": 18881,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICompRewardController",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          18881
+        ],
+        "name": "ICompRewardController",
+        "nameLocation": "77:21:92",
+        "scope": 18882,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  }
+}
